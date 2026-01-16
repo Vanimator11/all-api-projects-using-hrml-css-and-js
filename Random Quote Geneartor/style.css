@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+body{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color:#333;
+  font-family: 'Courier New', Courier, monospace;
+  color:white;
+  cursor:pointer;
+}
+
+button{
+  padding:10px 20px;
+  font-size:16px;
+  border:2px solid white;
+  background-color:transparent;
+  color:white;
+}
+button:hover{
+  background-color: white;
+  color:black;
+}
+
+h1{
+  margin-bottom: 40px;
+  text-align: center;
+}
